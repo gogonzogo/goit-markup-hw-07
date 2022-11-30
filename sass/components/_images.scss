@@ -1,7 +1,14 @@
+// BODY STYLE
 img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+// HEADER CONTACTS ICONS
+.header__contactsIcon {
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 // HERO IMG
@@ -18,7 +25,7 @@ img {
 }
 
 // BENEFITS IMG
-.benefits-item__icon-container {
+.benefits__itemIconContainer {
     padding: 25px 100px;
     background-color: $background-medium-color;
     border: $background-medium-color;
@@ -29,7 +36,7 @@ img {
     fill: currentColor;
 }
 
-/* OUR TEAM SOCIAL LINK/IMG */
+// OUR TEAM SOCIAL LINK/IMG
 .our-team__image {
     display: block;
 }
@@ -91,16 +98,14 @@ img {
         }
 }
 
-/* FOOTER CONTAINER MIDDLE SOCIAL LINKS */
-.footer-container__middle {
+// FOOTER CONTAINER MIDDLE SOCIAL LINKS
+.footer__containerMiddle {
     display: flex;
     flex-direction: column;
     margin-right: 93px;
 }
 
-.footer-socials__title {
-    font-family: 'Roboto';
-    font-style: normal;
+.footer__socialsTitle {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -110,16 +115,16 @@ img {
     margin-bottom: 20px;
 }
 
-.footer-socials__list {
+.footer__socialsList {
     display: flex;
     justify-content: center;
 }
 
-.footer-socials__item:not(:last-child) {
+.footer__socialsItem:not(:last-child) {
     margin-right: 10px;
 }
 
-.footer-socials__link {
+.footer__socialsLink {
     width: 44px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -139,17 +144,17 @@ img {
 }
 
 // PORTFOLIO PRODUCT DETAILS IMGS
-.product-details__item {
+.product__detailsItem {
     max-width: 370px;
     border: 1px solid #EEEEEE;
     cursor: pointer;
 }
 
-.product-details__item:not(:nth-child(3n + 3)) {
+.product__detailsItem:not(:nth-child(3n + 3)) {
     margin-right: 30px;
 }
 
-.product-details__item:nth-child(-n + 6) {
+.product__detailsItem:nth-child(-n + 6) {
     margin-bottom: 30px;
 }
 

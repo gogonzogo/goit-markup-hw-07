@@ -12,24 +12,13 @@ body {
     color: $dark-text-color;
     background-color: $background-white-color;
     cursor: default;
-}
 
-a {
+    a {
     text-decoration: none;
+    }
+
+    ul {
+        list-style-type: none;
+    }
 }
 
-ul {
-    list-style-type: none;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}

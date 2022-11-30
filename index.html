@@ -24,33 +24,33 @@
       <div class="container header__container">
         <nav class="header__nav">
           <a class="logo header__logo" href="./index.html">WebStudio</a>
-          <!-- HEADER NAV -->
-            <ul class="header-nav__list">
-              <li class="header-nav__item">
-                <a class="header-nav__link current-page" href="./index.html" title="Studio">Studio</a>
-              </li class="header-nav__item">
-              <li class="header-nav__item">
-                <a class="header-nav__link" href="./portfolio.html">Portfolio</a>
+          <!-- Header Nav -->
+            <ul class="header__navList">
+              <li class="header__navItem">
+                <a class="header__navLink header__navCurrentPage" href="./index.html"title="Studio">Studio</a>
+              </li class="header__navItem">
+              <li class="header__navItem">
+                <a class="header__navLink" href="./portfolio.html" title="Portfolio">Portfolio</a>
               </li>
-              <li class="header-nav__item">
-                <a class="header-nav__link" href="#">Contacts</a>
+              <li class="header__navItem">
+                <a class="header__navLink" href="#">Contacts</a>
               </li>
-            </ul> 
+            </ul>  
           </nav>
 
           <!-- HEADER CONTACTS -->
-          <ul class="header-contacts__list">
-            <li class="header-contacts__item">
-              <a href="mailto:info@devstudio.com" class="header-contacts__link">
-                <svg class="link__icon" width="16" height="12">
+          <ul class="header__contactsList">
+            <li class="header__contactsItem">
+              <a href="mailto:info@devstudio.com" class="header__contactsLink">
+                <svg class="header__contactsIcon" width="16" height="12">
                   <use href="./images/sprite.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
-            <li class="header-contacts__item">
-              <a href="tel:+380961111111" class="header-contacts__link">
-                <svg class="link__icon" width="10" height="16">
+            <li class="header__contactsItem">
+              <a href="tel:+380961111111" class="header__contactsLink">
+                <svg class="header__contactsIcon" width="10" height="16">
                   <use href="./images/sprite.svg#icon-smartphone"></use>
                 </svg>
                 +380961111111
@@ -63,7 +63,7 @@
     <main>
       <!-- HERO -->
       <section class="hero__section">
-        <div class="container">
+        <div class="container hero__container">
           <h1 class="hero__title">
             EFFECTIVE SOLUTIONS FOR <br />
             YOUR BUSINESS
@@ -78,51 +78,51 @@
       <!-- BENEFITS -->      
       <section class="section benefits__section">
         <div class="container">
-          <h2 class="benefits benefits__title">Benefits</h2>
+          <h2 class="benefits__title visually-hidden">Benefits</h2>
           <ul class="benefits__list">
             <li class="benefits__item">
-              <div class="benefits-item__icon-container">
+              <div class="benefits__itemIconContainer">
                 <svg class="benefits__icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="benefits-item__title">ATTENTION TO DETAILS</h3>
+              <h3 class="benefits__itemTitle">ATTENTION TO DETAILS</h3>
               <p class="benefits__summary">
                 We go into all the details and processes of your business to
                 develop a customized solution.
               </p>
             </li>
             <li class="benefits__item">
-              <div class="benefits-item__icon-container">
+              <div class="benefits__itemIconContainer">
                <svg class="benefits__icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="benefits-item__title">PUNCTUALITY</h3>
+              <h3 class="benefits__itemTitle">PUNCTUALITY</h3>
               <p class="benefits__summary">
                 With us, you can feel safe and secure. An important principle of
                 the company: respect your time and respect the agreed deadlines.
               </p>
             </li>
             <li class="benefits__item">
-              <div class="benefits-item__icon-container">
+              <div class="benefits__itemIconContainer">
                 <svg class="benefits__icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="benefits-item__title">PLANNING</h3>
+              <h3 class="benefits__itemTitle">PLANNING</h3>
               <p class="benefits__summary">
                 You will be able to observe and participate in every phase of
                 solution development and implementation.
               </p>
             </li>
             <li class="benefits__item">
-              <div class="benefits-item__icon-container">
+              <div class="benefits__itemIconContainer">
                 <svg class="benefits__icon" width="70" height="70">
                   <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="benefits-item__title">MODERN TECHNOLOGIES</h3>
+              <h3 class="benefits__itemTitle">MODERN TECHNOLOGIES</h3>
               <p class="benefits__summary">
                 We use innovative tools to solve assigned tasks. It's time to
                 simplify work processes.
@@ -143,7 +143,7 @@
                 alt="Typing on bluetooth keyboard"
                 width="370"
               />
-              <p class="what-we-do__img-text">DESKTOP APPS</p>
+              <p class="what-we-do__imgText">DESKTOP APPS</p>
             </li>
             <li class="what-we-do__item">
               <img
@@ -151,7 +151,7 @@
                 alt="Phone in hand while using computer"
                 width="370"
               />
-              <p class="what-we-do__img-text">MOBILE APPS</p>
+              <p class="what-we-do__imgText">MOBILE APPS</p>
             </li>
             <li class="what-we-do__item">
               <img
@@ -159,7 +159,7 @@
                 alt="Selecting color on color wheel"
                 width="370"
               />
-              <p class="what-we-do__img-text">DESIGN SOLUTIONS</p>
+              <p class="what-we-do__imgText">DESIGN SOLUTIONS</p>
             </li>
           </ul>
         </div>
@@ -177,7 +177,7 @@
                 alt="Image of Christoper Walkin"
                 width="270"
               />
-              <div class="our-team__item-description">
+              <div class="our-team__itemDescription">
                 <h3 class="our-team__name">Christopher Walker</h3>
                 <p class="our-team__role">Product Designer</p>
                 <ul class="socials__list">
@@ -219,7 +219,7 @@
                 alt="Image of Kylie Evans"
                 width="270"
               />
-              <div class="our-team__item-description">
+              <div class="our-team__itemDescription">
                 <h3 class="our-team__name">Kylie Evans</h3>
                 <p class="our-team__role">Frontend Developer</p>
                 <ul class="socials__list">
@@ -261,7 +261,7 @@
                 alt="Image of Ryan Harris"
                 width="270"
               />
-              <div class="our-team__item-description"> 
+              <div class="our-team__itemDescription"> 
                 <h3 class="our-team__name">Ryan Harris</h3>
                 <p class="our-team__role">Marketing</p>
                 <ul class="socials__list">
@@ -303,7 +303,7 @@
                 alt="Image of Tyler Moore"
                 width="270"
               />
-              <div class="our-team__item-description">
+              <div class="our-team__itemDescription">
                 <h3 class="our-team__name">Tyler Moore</h3>
                 <p class="our-team__role">UI Designer</p>
                 <ul class="socials__list">
@@ -398,53 +398,53 @@
     <footer class="footer__section">
       <div class="container footer__container">
         <!-- FOOTER LOGO, CONTACTS & ADDRESS -->
-        <div class="footer-container__left">
+        <div class="footer__containerLeft">
           <a class="logo footer__logo" href="./index.html">WebStudio</a>
           <address>
-            <ul class="footer-contacts__list">
-              <li class="footer-contacts__item">
-                <a class="footer-contacts__link-address" href="https://goo.gl/maps/7hkbFZoG83Kui2D87"
+            <ul class="footer__contactsList">
+              <li class="footer__contactsItem">
+                <a class="footer__address" href="https://goo.gl/maps/7hkbFZoG83Kui2D87"
                   target="_blank"
                   >695 Park Ave, New York, NY 10065, United States
                 </a>
               </li>
-              <li class="footer-contacts__item">
-                <a class="footer-contacts__link" href="mailto:info@example.com">info@example.com</a>
+              <li class="footer__contactsItem">
+                <a class="footer__contactsLink" href="mailto:info@example.com">info@example.com</a>
               </li>
-              <li class="footer-contacts__item">
-                <a class="footer-contacts__link" href="tel:+12127724150">+12127724150</a>
+              <li class="footer__contactsItem">
+                <a class="footer__contactsLink" href="tel:+12127724150">+12127724150</a>
               </li>
             </ul>
           </address>
         </div>        
         <!-- FOOTER SOCIAL LINKS -->
-        <div class="footer-container__middle">
-          <h3 class="footer-socials__title">FIND US ON</h3>
-          <ul class="footer-socials__list">
-            <li class="footer-socials__item">
-              <a href="" class="footer-socials__link">
-                <svg class="footer-socials__icon" width="20" height="20">
+        <div class="footer__containerMiddle">
+          <h3 class="footer__socialsTitle">FIND US ON</h3>
+          <ul class="footer__socialsList">
+            <li class="footer__socialsItem">
+              <a href="" class="footer__socialsLink">
+                <svg class="footer__socialsIcon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials__item">
-              <a href="" class="footer-socials__link">
-                <svg class="footer-socials__icon" width="20" height="20">
+            <li class="footer__socialsItem">
+              <a href="" class="footer__socialsLink">
+                <svg class="footer__socialsIcon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials__item">
-              <a href="" class="footer-socials__link">
-                <svg class="footer-socials__icon" width="20" height="20">
+            <li class="footer__socialsItem">
+              <a href="" class="footer__socialsLink">
+                <svg class="footer__socialsIcon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-socials__item">
-              <a href="" class="footer-socials__link">
-                <svg class="footer-socials__icon" width="20" height="20">
+            <li class="footer__socialsItem">
+              <a href="" class="footer__socialsLink">
+                <svg class="footer__socialsIcon" width="20" height="20">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -452,16 +452,16 @@
           </ul>
         </div>
         <!-- FOOTER SUBSCRIBE FORM -->
-        <div class="footer-container__right">
-          <p class="footer-form__title">SUBSCRIBE TO THE NEWSLETTER</p>
+        <div class="footer__containerRight">
+          <p class="footer__formTitle">SUBSCRIBE TO THE NEWSLETTER</p>
           <form class="footer__form" name="newsletter_signup_form" 
           autocomplete="on" novalidate>
             <label>
-              <input type="text" class="footer-form__input"  
+              <input type="text" class="footer__formInput"  
                 name="email" placeholder="E-mail"/> 
             </label>
-            <button class="footer-form__button" type="submit">Subscribe
-              <svg class="footer-form__icon" width="24" height="24">
+            <button class="footer__formButton" type="submit">Subscribe
+              <svg class="footer__formButtonIcon" width="24" height="24">
                 <use href="./images/sprite.svg#icon-send"></use>
               </svg>
             </button>
@@ -473,39 +473,39 @@
     <!-- MODAL WINDOW -->
     <div class="modal__backdrop is-hidden" data-modal>
       <div class="modal__window">
-        <button type="button" class="modal__close-button" data-modal-close>
+        <button type="button" class="modal__closeButton" data-modal-close>
           <svg class="icon-close" width="11" height="11">
             <use href="./images/sprite.svg#icon-close-five"></use>
           </svg>
         </button>
         
         <!-- MODAL FORM -->
-        <div calss-="modal-form-container">
-          <h3 class="modal-form__title">Leave your information and we'll call you back</h3>
+        <div calss-="modal__formContainer">
+          <h3 class="modal__formTitle">Leave your information and we'll call you back</h3>
           <form class="modal__form">
-            <label class="modal-form__label name">Name
+            <label class="modal__formLabel name">Name
               <svg class="modal__icon person" width="18" height="18">
                 <use href="./images/sprite.svg#icon-person-black"></use>
               </svg>
-              <input class="modal-form__field name" type="text" name="name" placeholder=" "/>
+              <input class="modal__formField name" type="text" name="name" placeholder=" "/>
             </label>
-             <label class="modal-form__label phone">Phone
+             <label class="modal__formLabel phone">Phone
               <svg class="modal__icon phone" width="18" height="18">
                 <use href="./images/sprite.svg#icon-phone-black"></use>
               </svg>
-              <input class="modal-form__field phone" type="text" name="phone" placeholder=" "/>
+              <input class="modal__formField phone" type="text" name="phone" placeholder=" "/>
             </label>
-            <label class="modal-form__label email">E-mail
+            <label class="modal__formLabel email">E-mail
               <svg class="modal__icon email" width="18" height="18">
                 <use href="./images/sprite.svg#icon-email-black"></use>
               </svg>
-              <input class="modal-form__field email" type="text" name="email" placeholder=" "/>
+              <input class="modal__formField email" type="text" name="email" placeholder=" "/>
             </label>
-            <label class="modal-form__label comments">Comments
-              <textarea class="modal-form__comments" placeholder="Enter the text" name="comments" rows="6"></textarea>
+            <label class="modal__formLabel comments">Comments
+              <textarea class="modal__formComments" placeholder="Enter the text" name="comments" rows="6"></textarea>
             </label>
-            <label class="modal-form__checkbox-label"><p class="checkbox terms-conditions">I agree with the newsletter and accept the <a class="checkbox terms-conditions__link" href="">Terms and Conditions</a></p>
-              <input class="modal-form__checkbox" type="checkbox" 
+            <label class="modal__formCheckboxLabel"><p class="checkbox terms-conditions">I agree with the newsletter and accept the <a class="checkbox terms-conditions__link" href="">Terms and Conditions</a></p>
+              <input class="modal__formCheckbox" type="checkbox" 
                 name="agree" value="agree"/>
               <span class="modal__checkbox">
                 <svg class="modal__check" width="11" height="8">
@@ -513,7 +513,7 @@
                 </svg>
               </span>
             </label>
-             <button class="modal-form__button" type="submit">Send</button>
+             <button class="modal__formButton" type="submit">Send</button>
           </form>
         </div>
       </div>
