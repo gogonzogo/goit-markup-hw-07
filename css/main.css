@@ -416,7 +416,7 @@ body ul {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  color: #212121;
+  color: #757575;
 }
 
 .modal__formLabel:not(:last-child) {
@@ -884,8 +884,8 @@ img {
 .header__nav .header__navLink:hover, .header__nav .header__navLink:focus {
   color: #2196F3;
 }
-.header__nav .header__navLink .header__navLink:hover::after,
-.header__nav .header__navLink .header__navLink:focus::after {
+.header__nav .header__navLink:hover::after,
+.header__nav .header__navLink:focus::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -901,7 +901,7 @@ img {
   text-decoration: none;
   padding: 32px 0;
 }
-.header__nav .header__navCurrentPage::after {
+.header__nav .header__navCurrentPage:after {
   position: absolute;
   content: "";
   width: 100%;

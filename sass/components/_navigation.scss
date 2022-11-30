@@ -21,9 +21,10 @@
         color: $dark-text-color;
         transition: color $transition-time $transition-time-function;
 
-        &:hover,
-        &:focus {
-            color: $accent-color;
+            &:hover,
+            &:focus {
+                color: $accent-color;
+            }
         }
 
         .header__navLink:hover::after,
@@ -36,25 +37,23 @@
             left: 0;
             background-color: $accent-color;
             border-radius: 2px;
-       }
-
         }
 
-    .header__navCurrentPage {
-        position: relative;
-        color: $accent-color;
-        text-decoration: none;
-        padding: 32px 0;
-    }
+        .header__navCurrentPage {
+            position: relative;
+            color: $accent-color;
+            text-decoration: none;
+            padding: 32px 0;
 
-    .header__navCurrentPage::after {
-        position: absolute;
-        content: '';
-        width: 100%;
-        height: 4px;
-        bottom: -1px;
-        left: 0;
-        background-color: $accent-color;
-        border-radius: 2px;
+            &:after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 4px;
+            bottom: -1px;
+            left: 0;
+            background-color: $accent-color;
+            border-radius: 2px;
+        }
     }
 }
