@@ -10,12 +10,12 @@
     }
 }
 
-.header__contactsList {
+.header__contacts-list {
     display: flex;
     align-items: center;
     margin-left: auto;
 
-    .header__contactsLink {
+    .header__contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -26,16 +26,14 @@
     color: $medium-text-color;
     transition: color $transition-time $transition-time-function;
 
-    &:hover,
-    &:focus {
-        color: $accent-color;
-    }
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
     }
 
-    .header__contactsItem:not(:last-child) {
+    .header__contacts-item:not(:last-child) {
         margin-right: 50px;
     }
-
- 
 }
 

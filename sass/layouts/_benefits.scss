@@ -6,13 +6,13 @@
         display: flex;
         flex-direction: column;
         display: flex;
+
+            &:not(:last-child) {
+            margin-right: 30px;
+        }
     }
 
-    .benefits__item:not(:last-child) {
-        margin-right: 30px;
-    }
-
-    .benefits__itemTitle {
+    .benefits__item-title {
         font-weight: 700;
         font-size: 14px;
         line-height: calc(16/14);

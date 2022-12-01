@@ -6,7 +6,7 @@ img {
 }
 
 // HEADER CONTACTS ICONS
-.header__contactsIcon {
+.header__contacts-icon {
     margin-right: 10px;
     fill: currentColor;
 }
@@ -25,15 +25,15 @@ img {
 }
 
 // BENEFITS IMG
-.benefits__itemIconContainer {
+.benefits__item-icon-container {
     padding: 25px 100px;
     background-color: $background-medium-color;
     border: $background-medium-color;
     border-radius: 4px;
-}
 
-.benefits__icon {
-    fill: currentColor;
+        .benefits__icon {
+            fill: currentColor;
+        }
 }
 
 // OUR TEAM SOCIAL LINK/IMG
@@ -44,35 +44,35 @@ img {
 .socials__list {
     display: flex;
     justify-content: center;
-}
 
-.socials__item:not(:last-child) {
-    margin-right: 10px;
-}
+        .socials__item:not(:last-child) {
+            margin-right: 10px;
+        }
 
-.socials__link {
-    width: 44px;
-    height: 44px;
-    background-color: $background-white-color;
-    color: #AFB1B8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: background-color $transition-time $transition-time-function,
-        color $transition-time $transition-time-function;
+        .socials__link {
+            width: 44px;
+            height: 44px;
+            background-color: $background-white-color;
+            color: #AFB1B8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background-color $transition-time $transition-time-function,
+                color $transition-time $transition-time-function;
 
-        &:hover,
-        &:focus {
-            background-color: $accent-color;
-            color: $background-white-color;
+                &:hover,
+                &:focus {
+                    background-color: $accent-color;
+                    color: $background-white-color;
+                }
+        }
+
+        .socials__icon {
+            fill: currentColor;
         }
 }
-
-.socials__icon {
-    fill: currentColor;
-}
-
+ 
 // REGULAR CUSTOMERS IMGS
 .regular-customers__logo {
     fill: currentColor;
@@ -99,62 +99,46 @@ img {
 }
 
 // FOOTER CONTAINER MIDDLE SOCIAL LINKS
-.footer__containerMiddle {
+.footer__container-middle {
     display: flex;
     flex-direction: column;
     margin-right: 93px;
-}
 
-.footer__socialsTitle {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: $white-text-color;
-    margin-bottom: 20px;
-}
+    .footer__socials-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $white-text-color;
+        margin-bottom: 20px;
+    }
 
-.footer__socialsList {
-    display: flex;
-    justify-content: center;
-}
+    .footer__socials-list {
+        display: flex;
+        justify-content: center;
+    }
 
-.footer__socialsItem:not(:last-child) {
-    margin-right: 10px;
-}
+    .footer__socials-item:not(:last-child) {
+        margin-right: 10px;
+    }
 
-.footer__socialsLink {
-    width: 44px;
-    height: 44px;
-    background-color: rgba(255, 255, 255, 0.1);
-    fill: $white-text-color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: background-color $transition-time $transition-time-function,
-        color $transition-time $transition-time-function;
+    .footer__socials-link {
+        width: 44px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.1);
+        fill: $white-text-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: background-color $transition-time $transition-time-function,
+            color $transition-time $transition-time-function;
 
         &:hover,
         &:focus {
             background-color: $accent-color;
             color: $dark-text-color;
         }
+    }
 }
-
-// PORTFOLIO PRODUCT DETAILS IMGS
-.product__detailsItem {
-    max-width: 370px;
-    border: 1px solid #EEEEEE;
-    cursor: pointer;
-}
-
-.product__detailsItem:not(:nth-child(3n + 3)) {
-    margin-right: 30px;
-}
-
-.product__detailsItem:nth-child(-n + 6) {
-    margin-bottom: 30px;
-}
-

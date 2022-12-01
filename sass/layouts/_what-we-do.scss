@@ -12,16 +12,16 @@
     .what-we-do__list {
         display: flex;
 
-        .what-we-do__item:not(:last-child) {
-            margin-right: 30px;
-        }
-
         /* WHAT WE DO IMG TEXT OVERLAY */
         .what-we-do__item {
             position: relative;
+
+             &:not(:last-child) {
+                margin-right: 30px;
+            }
         }
 
-        .what-we-do__imgText {
+        .what-we-do__img-text {
             font-weight: 700;
             font-size: 14px;
             line-height: 16px;
